@@ -75,7 +75,7 @@ getPage.onclick=()=>{
     array.forEach(element => {
       const li = document.createElement('li')
       li.textContent = element.id
-      xxx.appendChild(li);
+       xxx.appendChild(li); 
     });
     n+=1
   }
